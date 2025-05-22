@@ -4,7 +4,7 @@
 # 使用方法: ./test_api.sh [コマンド]
 
 # サーバーのベースURL
-BASE_URL="http://localhost:8080"
+BASE_URL="http:// 192.168.2.107:80"
 
 # 現在の表情を取得
 function get_expression() {

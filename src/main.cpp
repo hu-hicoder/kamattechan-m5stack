@@ -4,7 +4,8 @@
 #include "http_server.h" // 新しいHTTPサーバーヘッダーをインクルード
 
 using namespace m5avatar;
-Avatar avatar;
+// グローバル変数としてavatarを定義（http_server.cppから参照可能）
+m5avatar::Avatar avatar;
 
 // ダミーの音量レベル取得関数（M5Stackのマイク入力に置き換える予定）
 float getVolumeLevel()

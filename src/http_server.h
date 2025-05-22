@@ -3,6 +3,10 @@
 
 #include <Arduino.h>
 #include <ESPAsyncWebServer.h>
+#include <Avatar.h>
+
+// 外部からavatarを参照できるようにする
+extern m5avatar::Avatar avatar;
 
 void start_http_server();
 
